@@ -147,3 +147,9 @@ body{
         font-size: 1.3rem;
     } 
 }
+@media (max-width:800px){
+    #header{
+        height: 350px;
+        background-size: 800px;
+    }
+}
