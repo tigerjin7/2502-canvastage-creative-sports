@@ -1,0 +1,149 @@
+@font-face {
+    font-family: NotoSansKR-Black;
+    src: url(./source/NotoSansKR-Black.ttf) format(truetype);
+}
+@font-face {
+    font-family: NotoSansKR-Bold;
+    src: url(./source/NotoSansKR-Bold.ttf) format(truetype);
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#header{
+    margin-bottom: 1rem;
+    width: 900px;
+    height: 380px;
+    background-image: url(./source/sports-1-2.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#container1{
+    padding: 2%;
+    background-color: black;
+    display: flex;
+}
+#copy1{
+    padding: 1.5%;
+    padding-left: 10%;
+    width: 30%;
+    font-size: 2rem;
+    font-family: NotoSansKR-Black;
+    font-style: italic;
+    color: white;
+    letter-spacing: -0.03rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#copy2{
+    padding: 1.5%;
+    padding-left: 2.5%;
+    width: 70%;
+    line-height: 1.3rem;
+    text-align: justify;
+    font-size: 0.9rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1.5px solid white;
+}
+.main{
+    width: 900px;
+}
+.container2{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0.5rem;
+    display: flex;
+}
+.source2{
+    margin: 2%;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    padding: 0;
+    width: 96%;
+}
+#copy3{
+    width: 21%;
+    font-family: NotoSansKR-Bold;
+    font-style: italic;
+    font-size: 1.3rem; 
+    letter-spacing: -0.03rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+#source1{
+    width: 79%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+#copy4{
+    width: 13.5%;
+    font-family: NotoSansKR-Bold;
+    font-style: italic;
+    font-size: 1.3rem; 
+    letter-spacing: -0.03rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+#source3{
+    width: 86.5%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+#link1{
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+}
+@media (max-width:900px) {
+    #header, .main{
+        width: 100%;  
+    }
+    #container1{
+        padding: 2.5%;
+    }
+    #copy1{
+        width: 40%;
+        padding-right: 4%;
+        padding-left: 0;
+        font-size: 1.6rem;
+        justify-content: center;
+    }
+    #copy2{
+        width: 60%;
+        padding-left: 3%;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+    .container2{
+        width: 96%;
+    }
+    #copy3{
+        padding-right: 3%;
+        font-size: 1.2rem; 
+    }
+    #copy4{
+        padding-right: 3%;
+        font-size: 1.2rem; 
+    }
+    #link1{
+        font-size: 1.3rem;
+    } 
+}
